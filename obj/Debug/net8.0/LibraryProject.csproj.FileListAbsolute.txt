@@ -1,0 +1,15 @@
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.AssemblyInfoInputs.cache
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.AssemblyInfo.cs
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.csproj.CoreCompileInputs.cache
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.sourcelink.json
+C:\Users\XPRISTO\source\repos\LibraryProject\bin\Debug\net8.0\LibraryProject.exe
+C:\Users\XPRISTO\source\repos\LibraryProject\bin\Debug\net8.0\LibraryProject.deps.json
+C:\Users\XPRISTO\source\repos\LibraryProject\bin\Debug\net8.0\LibraryProject.runtimeconfig.json
+C:\Users\XPRISTO\source\repos\LibraryProject\bin\Debug\net8.0\LibraryProject.dll
+C:\Users\XPRISTO\source\repos\LibraryProject\bin\Debug\net8.0\LibraryProject.pdb
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.dll
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\refint\LibraryProject.dll
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.pdb
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\LibraryProject.genruntimeconfig.cache
+C:\Users\XPRISTO\source\repos\LibraryProject\obj\Debug\net8.0\ref\LibraryProject.dll
