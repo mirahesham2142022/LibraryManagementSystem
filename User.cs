@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryProject
 {
-    internal class User
+    internal abstract class User
     {
         //abstract:Can't create object from it
         //abstract class: class that bany class will iheirt from it complete the implemntation of functions

@@ -9,7 +9,7 @@ namespace LibraryProject
             Console.WriteLine("Hello, Welcome to Our library");
             library library = new library();
             char userType;
-            Console.WriteLine("Hello ! Enter your name");
+            Console.WriteLine("Write your name");
             string name = Console.ReadLine();
             Librarian l1;
 
@@ -29,33 +29,33 @@ namespace LibraryProject
                     char LibrarianChoice = Console.ReadLine()?.ToUpper()[0] ?? 'O';
 
                     switch (LibrarianChoice)
-                        {
-                            case 'A':
-                                Console.WriteLine("Enter Book Details: ID");
-                                if (!int.TryParse(Console.ReadLine(), out int Id))
-                                {
-                                    Console.WriteLine("Invalid ID. Please enter a valid number.");
-                                    break;
-                                }
-
-                                Console.WriteLine("Title:");
-                                string Title = Console.ReadLine();
-
-                                Console.WriteLine("Author:");
-                                string Author = Console.ReadLine();
-
-                                Console.WriteLine("Year:");
-                                if (!int.TryParse(Console.ReadLine(), out int Year))
-                                {
-                                    Console.WriteLine("Invalid Year. Please enter a valid number.");
-                                    break;
-                                }
-
-                                Book book = new Book(Id, Title, Author, Year);
-                                l1.AddBook(book, library);
+                    {
+                        case 'A':
+                            Console.WriteLine("Enter Book Details: ID");
+                            if (!int.TryParse(Console.ReadLine(), out int Id))
+                            {
+                                Console.WriteLine("Invalid ID. Please enter a valid number.");
                                 break;
+                            }
 
-                            case 'R':
+                            Console.WriteLine("Title:");
+                            string Title = Console.ReadLine();
+
+                            Console.WriteLine("Author:");
+                            string Author = Console.ReadLine();
+
+                            Console.WriteLine("Year:");
+                            if (!int.TryParse(Console.ReadLine(), out int Year))
+                            {
+                                Console.WriteLine("Invalid Year. Please enter a valid number.");
+                                break;
+                            }
+
+                            Book book = new Book(Id, Title, Author, Year);
+                            l1.AddBook(book, library);
+                            break;
+
+                        case 'R':
                             Console.WriteLine("Enter the ID of the book you want to remove:");
                             if (int.TryParse(Console.ReadLine(), out int removeId))
                             {
@@ -80,11 +80,38 @@ namespace LibraryProject
                             break;
                     }
                 }
+
                 else if (userType == 'R')
                 {
-                  
+                    libraryUser lb=new libraryUser(name);
+                    Console.WriteLine($"Hello {name} Do u want to view (V) our books or borrow (B),Exit (e)");
+                    char UserChoice = Console.ReadLine().ToUpper()[0];
+
+                    switch (UserChoice)
+                    {
+
+                        case 'V':
+                            lb.displayBooks(library);
+                            break;
+                        case 'B':
+                            Console.WriteLine("Enter the ID of your book");
+                              if(int.TryParse( Console.ReadLine(),out int Id))
+                            {
+                                lb.BorrowBook(Id, library);
+                            };
+                             
+                            break;
+                        case 'E':
+                            return;
+
+
+
+                    }
+
                 }
             }
+
+            Console.WriteLine("Thank you for Visiting US");
         }
     }
 }

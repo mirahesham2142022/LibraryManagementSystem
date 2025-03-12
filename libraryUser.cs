@@ -11,10 +11,15 @@ namespace LibraryProject
         //association between library and library card
         public libraryCard libCard { get; set; }
 
-        //As user&&librarian Can DisplayBooks
-        public void BorrowBook(Book BorrowingBook)
+        public libraryUser(string name) {
+            this.Name = name;
+        }
+        //As user && librarian Can DisplayBooks
+        public void BorrowBook(int id,library lib)
         {
+            lib.borrowedBook(id);
 
         }
+
     }
 }

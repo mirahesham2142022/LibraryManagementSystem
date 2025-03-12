@@ -10,7 +10,7 @@ namespace LibraryProject
     {
         List<Book> books = new List<Book>();
 
-        Book[] BorrowedBooks = new Book[40];
+        List<Book> borrowedBooks= new List<Book>(); 
         public void Add(Book newBook)
         {
             //validation
@@ -59,6 +59,33 @@ namespace LibraryProject
             {
                 Console.WriteLine("Nothing to display");
             }
+
+        }
+
+        public void borrowedBook(int id)
+        {
+            if(books.Count ==0 )
+            {
+                Console.WriteLine("No Books to be borrowed");
+                return;
+            }
+            
+            for (int i = 0; i < books.Count; i++)
+            {
+                if (id == books[i].Ids)
+                {
+                    borrowedBooks.Add(books[i]);
+                    books.RemoveAt(i);
+                    Console.WriteLine("Great Happy Reading");
+                    return;
+
+                }
+                
+                   
+            }
+         
+          Console.WriteLine("This book is not available");
+
 
         }
     }
