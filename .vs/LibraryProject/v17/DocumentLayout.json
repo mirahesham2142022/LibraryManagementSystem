@@ -3,28 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\libraryuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:libraryuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|c:\\users\\xpristo\\source\\repos\\libraryproject\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2895316-91CC-4C64-8DAF-AD24D67D7BEA}|LibraryProject.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +49,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAH8UAAAAAAAAAAAswIgUAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-12T00:27:53.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "library.cs",
               "DocumentMoniker": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\library.cs",
               "RelativeDocumentMoniker": "library.cs",
               "ToolTip": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\library.cs",
               "RelativeToolTip": "library.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAjAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwB4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T22:29:27.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\Book.cs",
               "RelativeDocumentMoniker": "Book.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Librarian.cs",
               "DocumentMoniker": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\Librarian.cs",
               "RelativeDocumentMoniker": "Librarian.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
@@ -98,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "libraryUser.cs",
               "DocumentMoniker": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\libraryUser.cs",
               "RelativeDocumentMoniker": "libraryUser.cs",
@@ -111,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\XPRISTO\\source\\repos\\LibraryProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAEAAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T01:28:32.767Z",
               "EditorCaption": ""

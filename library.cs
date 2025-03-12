@@ -8,13 +8,13 @@ namespace LibraryProject
 {
     internal class library
     {
-      List<Book> books=new List<Book>();
-   
+        List<Book> books = new List<Book>();
+
         Book[] BorrowedBooks = new Book[40];
         public void Add(Book newBook)
         {
             //validation
-            if(books.Count<100)
+            if (books.Count < 100)
             {
                 books.Add(newBook);
                 Console.WriteLine("Book Added Sucessfully");
@@ -26,29 +26,40 @@ namespace LibraryProject
         }
         public void Remove(int id)
         {
-            if(id <100 && books is not null )
+            if (books.Count == 0)
             {
-                for (int i = 0; i < books.Capacity; i++)
+                Console.WriteLine(" No books to remove");
+                return;
+            }
+
+            for (int i = 0; i < books.Count; i++)
+            {
+                if (books[i].Id == id)
                 {
-                    if (books[i].Id==id)
-                    {
-                        books.Remove(books[id]);
-                        Console.WriteLine("Removed Successfully");
-                    }
-                    else
-                    {
-                        Console.WriteLine("There is no book by this name");
-                    }
+                    books.RemoveAt(i);
+                    Console.WriteLine("Book removed successfully");
+                    return; 
                 }
             }
 
+            Console.WriteLine("There is no book with this ID.");
         }
+
+
         public void Display()
         {
-            foreach(Book b in books)
+            if (books.Count > 0)
             {
-                Console.WriteLine(b);
+                foreach (Book b in books)
+                {
+                    Console.WriteLine(b);
+                }
             }
+            else
+            {
+                Console.WriteLine("Nothing to display");
+            }
+
         }
     }
 }
